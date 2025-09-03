@@ -76,7 +76,7 @@ logging.level.com.zaxxer.hikari=ERROR
 
 <b>4. 配布スクリプトの実行手順</b><br>
 サンプルごとの<code>.vcf</code>ファイルパス、HPO idを記載した<code>.csv</code>を用意します(<code>example.csv</code>を参考にしてください)<br>
-トリオ解析の場合は<code>.bed</code>ファイルパスも入力できますが、単独解析の場合は空欄にしてください。<br>
+トリオ解析の場合は<code>.ped</code>ファイルパスも入力できますが、単独解析の場合は空欄にしてください。<br>
 当リポジトリから<code>script.sh</code>と<code>template.yml</code>をダウンロードしてどちらも<code>exomiser-cli-14.1.0</code>直下に配置してください。
 <code>exomiser-cli-14.1.0</code>で以下を実行します。
 <pre><code class="language-bash">
